@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" width="420" height="140">
+  <!-- Background -->
+  <rect width="420" height="140" fill="#ffffff"/>
+
+  <!-- ===== CENTRED GROUP ===== -->
+  <!-- The visual content spans roughly x=6 to x=345.
+       To centre it on a 420-wide canvas, shift it right by ~30px. -->
+  <g transform="translate(30,0)">
+
+    <!-- ===== CHIP BODY ===== -->
+    <rect x="30" y="30" width="80" height="80" rx="8" fill="none" stroke="#0B6E4F" stroke-width="3"/>
+
+    <!-- ===== CHIP PINS ===== -->
+    <line x1="18" y1="45" x2="30" y2="45" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="18" y1="60" x2="30" y2="60" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="18" y1="75" x2="30" y2="75" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="18" y1="90" x2="30" y2="90" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="110" y1="45" x2="122" y2="45" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="110" y1="60" x2="122" y2="60" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="110" y1="75" x2="122" y2="75" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="110" y1="90" x2="122" y2="90" stroke="#0B6E4F" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- ===== MESH NODES ===== -->
+    <line x1="18" y1="45" x2="6" y2="32" stroke="#2E9E7E" stroke-width="2"/>
+    <line x1="18" y1="75" x2="6" y2="88" stroke="#2E9E7E" stroke-width="2"/>
+    <circle cx="6" cy="32" r="3.5" fill="#2E9E7E"/>
+    <circle cx="6" cy="88" r="3.5" fill="#2E9E7E"/>
+    <line x1="122" y1="45" x2="134" y2="32" stroke="#2E9E7E" stroke-width="2"/>
+    <line x1="122" y1="75" x2="134" y2="88" stroke="#2E9E7E" stroke-width="2"/>
+    <line x1="122" y1="60" x2="138" y2="60" stroke="#2E9E7E" stroke-width="2"/>
+    <circle cx="134" cy="32" r="3.5" fill="#2E9E7E"/>
+    <circle cx="134" cy="88" r="3.5" fill="#2E9E7E"/>
+    <circle cx="138" cy="60" r="3.5" fill="#2E9E7E"/>
+
+    <!-- ===== WIFI SYMBOL ===== -->
+    <g fill="none" stroke="#2E9E7E" stroke-width="2.5" stroke-linecap="round">
+      <path d="M61 49 Q70 41 79 49"/>
+      <path d="M65 55 Q70 51 75 55"/>
+    </g>
+    <circle cx="70" cy="60" r="2.2" fill="#2E9E7E"/>
+
+    <!-- ===== WATER DROP ===== -->
+    <path d="M70 63
+             C70 63, 60 77, 60 86
+             C60 92.5, 64.5 97, 70 97
+             C75.5 97, 80 92.5, 80 86
+             C80 77, 70 63, 70 63 Z"
+          fill="#1B9AAA"/>
+
+    <!-- ===== WORDMARK ===== -->
+    <text x="160" y="66" font-family="Georgia, 'Times New Roman', serif"
+          font-size="40" font-weight="bold" fill="#0B6E4F" letter-spacing="1">Qatra</text>
+
+    <!-- Tagline -->
+    <text x="160" y="92" font-family="'Segoe UI', Tahoma, sans-serif"
+          font-size="12" fill="#4A4A4A" letter-spacing="1.5">EVERY DROP, MEASURED</text>
+
+  </g>
+</svg>

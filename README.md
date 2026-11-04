@@ -1,4 +1,12 @@
-# Climate Founders Track — Ahmad Deeb
+<p align="center">
+  <img src="assets/logo/qatra-logo.svg" alt="Qatra logo" width="320">
+  <br>
+  <em>Every drop, measured.</em>
+</p>
+
+---
+
+# Climate Founders Track
 
 Personal documentation repository for my participation in the **Climate Founders Track**, the climate tech edition of UNDP ICPSD's Virtual Digital Business Pre-Incubation (VDBI) programme.
 
@@ -6,7 +14,7 @@ Personal documentation repository for my participation in the **Climate Founders
 
 **Programme dates:** Fri 6 Nov – Wed 16 Dec 2026
 
-**Status:** 🟡 In progress — accepted, pre-programme preparation
+**Status:** 🔄 In progress — accepted, pre-programme preparation
 
 ---
 
@@ -51,7 +59,7 @@ Issued after Demo Day only if **all three** are met:
 
 ## 2. My Venture
 
-**Working title:** [Your venture name]
+**Working title:** **Qatra**
 
 **Climate problem:**
 Inefficient irrigation and wasted freshwater among farmers in water-scarce regions, caused by a lack of reliable local soil moisture and weather data. Existing monitoring stations are too sparse and too expensive, and forecast models are weakest where water stress is highest.
@@ -59,9 +67,9 @@ Inefficient irrigation and wasted freshwater among farmers in water-scarce regio
 **Proposed solution:**
 A low-power **ESP32 sensor network** that collects soil moisture, temperature and humidity data in the field. Nodes communicate through a **self-organising mesh network**, so no internet or cellular coverage is needed at field level. Lightweight **AI runs on-device** to filter noise, detect anomalies and determine irrigation needs; only consolidated insights and alerts are relayed to a gateway and forwarded to the user.
 
-**Target customer:** [Smallholder farmers / agricultural cooperatives / agricultural extension services — choose one]
+**Target customer:** Smallholder farmers
 
-**Geography:** [Specify region/country]
+**Geography:** rural Damascus
 
 **Initial climate impact indicators:**
 - Freshwater saved through data-guided irrigation scheduling
@@ -202,8 +210,12 @@ Legend: ⬜ Not started · ✅ Done
 ├── pitch/
 │   ├── draft-v1.pptx
 │   └── final-deck.pdf
-└── action-plan/
-    └── 90-day-action-plan.md
+│── action-plan/
+│    └── 90-day-action-plan.md
+└── firmware/
+   ├── esp32-edge-node/
+   └── esp32-back-node/
+
 ```
 
 ---
@@ -212,9 +224,9 @@ Legend: ⬜ Not started · ✅ Done
 
 | Date | Update |
 |---|---|
-| [date] | Selected for the programme; received Participant Guide |
-| [date] | Chose climate problem, customer segment and geography |
-| [date] | Prepared 60-second introduction |
+| [04-Nov-2026] | Selected for the programme; received Participant Guide |
+| [04-Nov-2026] | Chose climate problem, customer segment and geography |
+| [05-Nov-2026] | Prepared 60-second introduction |
 
 ---
 
