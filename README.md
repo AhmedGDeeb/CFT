@@ -1,6 +1,10 @@
-# SentinelMesh: Solution Description, Cost, and Coverage
+# SentinelMesh: 
+> Solution Description, Cost, and Coverage
 
-![SentinelMesh logo](assets/logo/sentinelmesh-logo.svg)
+<p align="center">
+  <img src="assets/logo/sentinelmesh-logo.svg" alt="SentinelMesh logo" width="360">
+</p>
+
 
 Personal documentation repository for my participation in the **Climate Founders Track**, the climate tech edition of UNDP ICPSD's Virtual Digital Business Pre-Incubation (VDBI) programme.
 
