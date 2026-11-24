@@ -11,7 +11,7 @@ Personal documentation repository for my participation in the **Climate Founders
 **Participant:** Ahmad Deeb
 **Venture:** SentinelMesh — a solar-powered, self-healing IoT mesh for independent environmental monitoring in remote Syria
 **Programme dates:** Fri 6 Nov – Wed 16 Dec 2026
-**Status:** 🟡 In progress — problem and solution defined, Session 2 complete, customer discovery underway
+**Status:** 🟡 In progress — problem and solution defined, Sessions 2–3 complete, MVP test design ready, customer discovery underway
 
 ---
 
@@ -249,7 +249,7 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done
 |---|---|---|---|---|---|
 | 1 | Fri 6 Nov | Onboarding and programme introduction | — | ✅ Done | — |
 | 2 | Wed 11 Nov | Climate action categories and project examples | Session README (homework answer), value proposition, interview guide | ✅ Done | `sessions/02-customer-discovery/` |
-| 3 | Fri 13 Nov | Climate problem, first customer and MVP test design | — | ⬜ Not started | — |
+| 3 | Fri 13 Nov | Climate problem, first customer and MVP test design | One-page RAT plan (problem, customer, riskiest assumption A1, test, thresholds, decision rule) | ✅ Done | `sessions/03-mvp-test-plan/` |
 | 4 | Wed 18 Nov | Riskiest assumption and MVP test design: follow-up | — | ⬜ Not started | — |
 | 5 | Fri 20 Nov | AI Foundations for Climate Founders | — | ⬜ Not started | — |
 | 6 | Wed 25 Nov | Credible impact claims and measurement | Impact section with two indicators | ⬜ Not started | — |
@@ -261,6 +261,8 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done
 | 12 | Mon 14 Dec | Pitch rehearsal and the next 90 days | Revision list and 90-day action plan | ⬜ Not started | — |
 | — | Tue 15 Dec | Final submission (no live session) | Workbook, pitch deck and 90-day action plan | ⬜ Not started | — |
 | — | Wed 16 Dec | **Demo Day** | Live pitch | ⬜ Not started | — |
+
+*Note: Session titles for sessions 1–5 reflect the actual delivered sessions. Detailed summaries and output files for sessions 1, 4 and 5 will be added once session materials are provided.*
 
 ---
 
@@ -317,6 +319,7 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done
 │   │   ├── value-proposition.md
 │   │   └── interview-guide.md
 │   ├── 03-mvp-test-plan/
+│   │   └── README.md
 │   ├── 04-impact-baseline/
 │   ├── 05-competition-and-adoption/
 │   ├── 06-impact-claims-and-measurement/
@@ -382,11 +385,6 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done
 | 04-Nov-2026 | Selected for the programme; received Participant Guide |
 | 04-Nov-2026 | Chose climate problem, customer segment and geography |
 | 04-Nov-2026 | Prepared 60-second introduction (Qatra — irrigation focus) |
-| [date] | **Pivot:** venture reframed as SentinelMesh — decentralised solar-powered IoT mesh for environmental monitoring (fire, wildlife, herd, weather) |
-| [date] | Defined two-tier node architecture, cost and coverage figures |
-| [date] | Rewrote README for SentinelMesh |
-| 06-Nov-2026 | ✅ Attended Session 1 — Onboarding and programme introduction |
-| 11-Nov-2026 | ✅ Attended Session 2 — Climate action categories and project examples |
 | 11-Nov-2026 | ✅ **Session 2 complete.** Homework submitted: defined wildfire late-detection as the climate problem; primary customer named (forest protection agencies — Ministry of Emergency and Disaster Management, GORS/FIRMO, civil defence); category selected as **Climate data and early warning** (related: adaptation and resilience); first test defined as a controlled two-node smoke test at ~400 m NLOS, measuring detection, latency and mesh relay (tests A5, A7). Produced `value-proposition.md` (v1 — narrowed from multi-use platform to wildfire early detection) and `interview-guide.md` (Mom Test discovery guide targeting 3–5 interviews). Evidence documented: 12,000 ha forest lost in 2025 (2.0 Mt CO₂), 2,367 fire incidents Q1 2026, 40% tree-cover loss 2001–2025, UNDP Syria early-detection tender (Nov 2025). |
 | 11-Nov-2026 | **Value proposition narrowed to v1:** from broad multi-use environmental monitoring (v0) to **one lead problem — wildfire early detection** — with one named primary customer. Multi-use cases (wildlife, herd, soil, weather) retained as expansion, not as the pitch. Rationale: Session 1 requires a singular problem-and-customer page; the evidence points to one urgent, funded, institutionally-owned problem. |
-```
+| 13-Nov-2026 | ✅ **Session 3 complete.** Trainers: Dr Amani Mohamed Ali (climate problem and first customer) and Prof. Afonso Zinga (riskiest assumption and MVP test design). Homework submitted: one-page RAT plan naming wildfire late-detection as the climate problem, forest protection agencies as first customer, and **A1 (ESP32-CAM + YOLO smoke detection at ≥ 80% recall / ≤ 20% false positives at 50–100 m daylight)** as the riskiest assumption. Test designed as a bench/field smoke test with pre-set thresholds (Proceed / Revise / Stop), 3-week cap, $250 cap, 30 trials, independent observer. Assumptions ranked by Impact × (6 – Evidence): A1 scored 25 (riskiest), A2 and A3 scored 20 each. Produced `sessions/03-mvp-test-plan/README.md`. |
