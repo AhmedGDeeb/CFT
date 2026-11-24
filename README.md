@@ -11,7 +11,7 @@ Personal documentation repository for my participation in the **Climate Founders
 **Participant:** Ahmad Deeb[cite: 4]
 **Venture:** SentinelMesh — a solar-powered, self-healing IoT mesh for independent environmental monitoring in remote Syria[cite: 4]
 **Programme dates:** Fri 6 Nov – Wed 16 Dec 2026[cite: 4]
-**Status:** 🟡 In progress — problem and solution defined, Sessions 2–4 complete, MVP test design ready, customer discovery underway[cite: 4]
+**Status:** 🟡 In progress — problem and solution defined, Sessions 2–5 complete, MVP test design ready, customer discovery underway[cite: 4]
 
 ---
 
@@ -223,7 +223,7 @@ By the end of the programme (Wed 16 Dec 2026), I expect to have:
 
 ### Mentoring
 
-- [ ] Book Round 1 session (9–13 Nov)[cite: 4]
+- [x] Book Round 1 session (9–13 Nov)[cite: 4]
 - [ ] Book Round 2 session (23–27 Nov)[cite: 4]
 - [ ] Book Round 3 session (7–11 Dec)[cite: 4]
 - [ ] Prepare materials + 2 concrete questions before each session[cite: 4]
@@ -231,7 +231,7 @@ By the end of the programme (Wed 16 Dec 2026), I expect to have:
 ### Masterclasses & optional learning
 
 - [ ] Attend masterclasses from Week 2 (dates in cohort channel)[cite: 4]
-- [ ] (Optional) Complete relevant HP LIFE courses[cite: 4]
+- [x] Complete Session 5 required courses: *AI for Business Professionals* (HP LIFE) & *AI Fundamentals: Core Concepts & Principles* (HP AI Foundry / edX)
 
 ### Final submission & Demo Day
 
@@ -250,8 +250,8 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done[cite: 4]
 | 1 | Fri 6 Nov | Onboarding and programme introduction | — | ✅ Done | —[cite: 4] |
 | 2 | Wed 11 Nov | Climate action categories and project examples | Session README (homework answer), value proposition, interview guide | ✅ Done | `sessions/02-customer-discovery/`[cite: 4] |
 | 3 | Fri 13 Nov | Climate problem, first customer and MVP test design | One-page RAT plan (problem, customer, riskiest assumption A1, test, thresholds, decision rule) | ✅ Done | `sessions/03-mvp-test-plan/`[cite: 4] |
-| 4 | Wed 18 Nov | Riskiest assumption and MVP test design: follow-up | Ranked 3 assumptions (A1 Technical 25, A2 Demand 20, A3 Viability 16), A1 test plan & assumption map | ✅ Done | `sessions/04-riskiest-assumption/` |
-| 5 | Fri 20 Nov | AI Foundations for Climate Founders | — | ⬜ Not started | —[cite: 4] |
+| 4 | Wed 18 Nov | Riskiest assumption and MVP test design: follow-up | Ranked 3 assumptions (A1 Technical 25, A2 Demand 20, A3 Viability 16), A1 test plan & assumption map | ✅ Done | `sessions/04-riskiest-assumption/`[cite: 4] |
+| 5 | Fri 20 Nov | AI Foundations for Climate Founders | Completed *AI for Business Professionals* (HP LIFE) & *AI Fundamentals: Core Concepts & Principles* (HP AI Foundry / edX); certificates prepared | ✅ Done | — |
 | 6 | Wed 25 Nov | Credible impact claims and measurement | Impact section with two indicators | ⬜ Not started | —[cite: 4] |
 | 7 | Fri 27 Nov | Business model and customer value | Business model page and positioning sentence | ⬜ Not started | —[cite: 4] |
 | 8 | Wed 2 Dec | Pricing and minimum viable cash plan | Provisional price, unit economics and 12-month cash plan | ⬜ Not started | —[cite: 4] |
@@ -262,7 +262,7 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done[cite: 4]
 | — | Tue 15 Dec | Final submission (no live session) | Workbook, pitch deck and 90-day action plan | ⬜ Not started | —[cite: 4] |
 | — | Wed 16 Dec | **Demo Day** | Live pitch | ⬜ Not started | —[cite: 4] |
 
-*Note: Session titles for sessions 1–5 reflect the actual delivered sessions. Detailed summaries and output files for sessions 1 and 5 will be added once session materials are provided.*
+*Note: Session titles for sessions 1–5 reflect the actual delivered sessions. Detailed summaries and output files for session 1 will be added once session materials are provided.*
 
 ---
 
@@ -323,7 +323,9 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done[cite: 4]
 │   ├── 04-riskiest-assumption/
 │   │   ├── README.md
 │   │   └── assumption-map.md
-│   ├── 05-competition-and-adoption/
+│   ├── 05-AI Foundations for Climate Founders/
+│   │   ├── certificates_AhmadDeeb
+│   │   └── Session_5_AI_Foundations.pdf
 │   ├── 06-impact-claims-and-measurement/
 │   ├── 07-business-model/
 │   ├── 08-pricing-and-cash-plan/
@@ -375,9 +377,15 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done[cite: 4]
 
 | Folder | Purpose |
 | --- | --- |
-| `firmware/` | ESP32 node firmware — sensor reading, on-device YOLO inference, ESP-MESH networking, power management|
-| `server/` | Backend API — ingests node data via gateway, stores readings and detections, serves the dashboard and mobile app|
-| `mobile/` | Field-facing app — real-time alerts, sensor readings, detection logs|
+| `firmware/` | ESP32 node firmware — sensor reading, on-device YOLO inference, ESP-MESH networking, power management
+
+ |
+| `server/` | Backend API — ingests node data via gateway, stores readings and detections, serves the dashboard and mobile app
+
+ |
+| `mobile/` | Field-facing app — real-time alerts, sensor readings, detection logs
+
+ |
 
 ---
 
@@ -403,4 +411,7 @@ Legend: ⬜ Not started · 🔄 In progress · ✅ Done[cite: 4]
 | 13-Nov-2026 | ✅ **Session 3 complete.** Trainers: Dr Amani Mohamed Ali (climate problem and first customer) and Prof. Afonso Zinga (riskiest assumption and MVP test design). Homework submitted: one-page RAT plan naming wildfire late-detection as the climate problem, forest protection agencies as first customer, and **A1 (ESP32-CAM + YOLO smoke detection at ≥ 80% recall / ≤ 20% false positives at 50–100 m daylight)** as the riskiest assumption. Test designed as a bench/field smoke test with pre-set thresholds (Proceed / Revise / Stop), 3-week cap, $250 cap, 30 trials, independent observer. Assumptions ranked by Impact × (6 – Evidence): A1 scored 25 (riskiest), A2 and A3 scored 20 each. Produced `sessions/03-mvp-test-plan/README.md`.
 
  |
-| 18-Nov-2026 | ✅ **Session 4 complete.** Trainer: Prof. Afonso Zinga. Ranked three assumptions across Technical, Demand, and Viability using Impact × (6 – Evidence): **A1 Technical (25)**, **A2 Demand (20)**, and **A3 Viability (16)**. Defined the A1 (ESP32-CAM + YOLOv8n smoke detection) test with recall, false-positive, and latency metrics, pre-set Proceed/Revise/Stop thresholds, 3-week / $250 / 30-trial caps, and next-step decision rules. Produced `sessions/04-riskiest-assumption/README.md` and `sessions/04-riskiest-assumption/assumption-map.md`. |
+| 18-Nov-2026 | ✅ **Session 4 complete.** Trainer: Prof. Afonso Zinga. Ranked three assumptions across Technical, Demand, and Viability using Impact × (6 – Evidence): **A1 Technical (25)**, **A2 Demand (20)**, and **A3 Viability (16)**. Defined the A1 (ESP32-CAM + YOLOv8n smoke detection) test with recall, false-positive, and latency metrics, pre-set Proceed/Revise/Stop thresholds, 3-week / $250 / 30-trial caps, and next-step decision rules. Produced `sessions/04-riskiest-assumption/README.md` and `sessions/04-riskiest-assumption/assumption-map.md`.
+
+ |
+| 20-Nov-2026 | ✅ **Session 5 complete.** Lead Trainer: Mohammed Abdelaziz (*AI Foundations for Climate Founders*). Covered AI fundamentals, chat assistants, AI tool comparisons, prompt iteration for climate-business cases, and verification/permission checks. Completed both homework courses — *AI for Business Professionals* (HP LIFE) and *AI Fundamentals: Core Concepts & Principles* (HP AI Foundry / edX) — with certificates prepared for submission. |
